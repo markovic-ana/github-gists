@@ -15,7 +15,7 @@ const Gists = () => {
   }
 
   const { isLoading, data, error } = useFetch(
-    "https://api.github.com/gists/public?page=2&per_page=30"
+    "https://api.github.com/gists/public?page=2&per_page=100"
   )
 
   useEffect(() => {
@@ -40,7 +40,8 @@ const Gists = () => {
           return (
             <div key={id}>
               <div>
-                <p>{item.url}</p>
+                <h2>{Object.values(item.files)[0].filename}</h2>
+                <img src={item.owner.avatar_url} alt='profile'/>
               </div>
             </div>
           )

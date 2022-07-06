@@ -28,3 +28,25 @@
   letter-spacing: -0.016em;
   color: #000000;
 }
+
+.gist {
+  display: flex;
+  margin-left: 16px;
+  margin-top: 13px;
+}
+
+.profilePic {
+  height: 74px;
+  width: 74px;
+}
+
+.gistName {
+font-family: 'Helvetica';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 18px;
+color: #303133;
+align-self: center;
+margin-left: 16px;
+}

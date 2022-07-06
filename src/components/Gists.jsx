@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react"
 import useFetch from "react-fetch-hook"
 import ReactPaginate from "react-paginate"
+import "../index.css"
 
 const Gists = () => {
   const [gistList, setGistList] = useState([])
@@ -38,11 +39,9 @@ const Gists = () => {
         .slice(pagesVisited, pagesVisited + itemsPerPage)
         .map((item, id) => {
           return (
-            <div key={id}>
-              <div>
-                <h2>{Object.values(item.files)[0].filename}</h2>
-                <img src={item.owner.avatar_url} alt='profile'/>
-              </div>
+            <div key={id} className="gist">
+                <img src={item.owner.avatar_url} alt='profile' className='profilePic'/>
+                <h2 className="gistName">{Object.values(item.files)[0].filename}</h2>
             </div>
           )
         })}

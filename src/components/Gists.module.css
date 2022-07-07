@@ -1,0 +1,68 @@
+.gist {
+display: flex;
+margin-left: 16px;
+margin-top: 13px;
+padding-bottom: 12px;
+left: 0px;
+top: 99px;
+/* grayscale/Gray20 */
+border-bottom: 1px solid #EAEAEA;
+margin-right: 19px;
+}
+
+.profilePic {
+  height: 74px;
+  width: 74px;
+}
+
+.gistName {
+font-family: 'Helvetica';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 18px;
+color: #303133;
+align-self: center;
+margin-left: 16px;
+}
+
+.active {
+font-family: 'Helvetica';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 18px;
+color: #06A9F6;
+align-self: center;
+margin-left: 16px;
+}
+
+.activeImg{
+background: #303133;
+opacity: 0.5;
+height: 74px;
+  width: 74px;
+}
+
+.loading{
+position:relative;
+width: 285px;
+height: 50px;
+margin: 0 auto;
+top: 325px;
+
+/* Section Title (H3) */
+font-family: 'Helvetica';
+font-style: normal;
+font-weight: 400;
+font-size: 22px;
+line-height: 28px;
+/* or 127% */
+display: flex;
+align-items: center;
+text-align: center;
+
+/* grayscale/Black */
+color: #303133;
+
+}

@@ -30,9 +30,15 @@
 }
 
 .gist {
-  display: flex;
-  margin-left: 16px;
-  margin-top: 13px;
+display: flex;
+margin-left: 16px;
+margin-top: 13px;
+padding-bottom: 12px;
+left: 0px;
+top: 99px;
+/* grayscale/Gray20 */
+border-bottom: 1px solid #EAEAEA;
+
 }
 
 .profilePic {
@@ -49,4 +55,5 @@ line-height: 18px;
 color: #303133;
 align-self: center;
 margin-left: 16px;
+
 }
